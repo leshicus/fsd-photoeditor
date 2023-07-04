@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  border: var(--border-color) 1px solid;
+  border-radius: var(--border-radius);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: var(--margin-5);
+  padding: var(--margin-5);
+  cursor: pointer;
+}
+
+.main:hover {
+  background-color: darkcyan;
+  color: #fff;
+}

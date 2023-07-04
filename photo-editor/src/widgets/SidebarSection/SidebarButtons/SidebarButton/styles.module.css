@@ -1,0 +1,20 @@
+.main {
+  border: var(--border-color) 1px solid;
+  border-radius: var(--border-radius);
+  margin: var(--margin-5);
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.main:hover {
+  background-color: darkcyan;
+  color: #fff;
+}
+
+.title {
+  font-size: var(--fontsize-title);
+}

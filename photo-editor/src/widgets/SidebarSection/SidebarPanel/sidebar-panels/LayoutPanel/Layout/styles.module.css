@@ -1,0 +1,25 @@
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: var(--border-color) 1px solid;
+  border-radius: var(--border-radius);
+  margin: var(--margin-5) 0;
+  cursor: pointer;
+}
+
+.title {
+  font-size: var(--fontsize-title);
+  align-self: center;
+}
+
+.size {
+  font-size: var(--fontsize-body);
+  flex-grow: 1;
+}
+
+.main:hover {
+  background-color: darkcyan;
+  color: #fff;
+}

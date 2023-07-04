@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+  border: none;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+:global(#app) {
+  height: 100%;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+:root {
+  --border-color: #ededed;
+  --border-radius: 5px;
+
+  --margin-5: 5px;
+  --margin-10: 10px;
+
+  --fontsize-header: 20px;
+
+  --fontsize-header: 20px;
+  --fontsize-title: 16px;
+  --fontsize-body: 12px;
+
+}

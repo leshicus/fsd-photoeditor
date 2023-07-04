@@ -1,0 +1,52 @@
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  --header-height: 40px;
+}
+
+.header {
+  height: var(--header-height);
+  position: fixed;
+  width: 100%;
+  border-bottom: var(--border-color) 1px solid;
+  overflow: hidden;
+}
+
+.body {
+  height: calc(100% - var(--header-height));
+  width: 100%;
+  top: var(--header-height);
+  position: fixed;
+  display: flex;
+  overflow: hidden;
+}
+
+.sidebarSection {
+  width: 300px;
+  border-right: var(--border-color) 1px solid;
+}
+
+.layersSection {
+  width: 100px;
+  border-left: var(--border-color) 1px solid;
+}
+
+.artboardSection {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 100px - 300px);
+}
+
+.toolbarSection {
+  border: var(--border-color) 1px solid;
+  border-radius: var(--border-radius);
+  margin: var(--margin-5);
+  display: flex;
+  overflow-x: scroll;
+}
+
+.artboardSectionBody {
+  flex-grow: 1;
+}
